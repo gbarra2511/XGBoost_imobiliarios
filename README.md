@@ -1,5 +1,5 @@
 # XGBoost_version_3.0
-O XGboost (Extreme Gradient Boosting) é um modelo de `ensembled learning` baseado em árvores de decisão, ou seja, as árvores sucessoras tentam corrigir os erros das predecessoras. Nesse caso utilizamos técnicas como:
+O XGboost (Extreme Gradient Boosting) é um modelo de `ensembled learning` baseado em árvores de decisão, ou seja, as árvores sucessoras tentam corrigir os erros das predecessoras. Nesse caso utilizei técnicas como:
 
 `Target Encoding, One hot encoding, Cross Validation, Feature Engineering.`
 
@@ -53,7 +53,7 @@ StandardScaler aplicado em features numéricas (`renda_mensal`, `score_credito`,
 Validação cruzada com re-encoding em cada fold garantiu avaliação robusta. CV RMSE (0.46) próximo ao teste (0.44) confirma boa generalização.
 
 **7. Regularização XGBoost**
-Hiperparâmetros ajustados (`max_depth=4`, `learning_rate=0.02`, `min_child_weight=10`, `reg_lambda=3.0`) para balancear performance e prevenção de overfitting.
+Hiperparâmetros ajustados (`max_depth=4`, `learning_rate=0.02`) para balancear performance e prevenção de overfitting.
 
 ## Resultados
 
