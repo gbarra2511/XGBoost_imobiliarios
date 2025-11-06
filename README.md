@@ -27,7 +27,7 @@ O XGboost (Extreme Gradient Boosting) é um modelo de `ensembled learning` basea
 -Extremamente rápido e eficiente
 
 
-##Obtenção de melhora:
+## Obtenção de melhora:
 O modelo apresentava overfitting em profissões específicas, por exemplo profissao_empresario representando 11.2% da importância total, indicando memorização de padrões ao invés de generalização adequada (overfitting).
 ## Técnicas Aplicadas
 
